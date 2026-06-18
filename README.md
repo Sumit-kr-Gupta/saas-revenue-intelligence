@@ -794,7 +794,7 @@ saas-revenue-intelligence/
 1. **NRR calculation refinement** — Build a proper cohort-based NRR using PLAN_CHANGES (expansion) and CHURN_EVENTS (contraction) tables to compute true net revenue retention per monthly cohort
 2. **Predictive churn model** — Logistic regression using customer attributes (industry, company_size, acquisition_channel, plan_tier, invoice frequency) to score each active customer's churn probability
 3. **Involuntary churn analysis** — Segment PAYMENTS table failures by customer and timing to identify revenue lost to billing failure vs deliberate cancellation
-4. **Real-time Tableau connection** — Connect Tableau to live MySQL for operational monitoring instead of static exports
+4. **Build an interactive Tableau dashboard connected to the SaaS revenue dataset.
 5. **Customer health score** — Composite scoring combining invoice recency, plan tier, payment success rate, and churn risk for CSM prioritization queue
 6. **Revenue forecasting** — Time-series projection of MRR using 35-month historical trend; even a linear extrapolation would be useful for board-level planning
 
