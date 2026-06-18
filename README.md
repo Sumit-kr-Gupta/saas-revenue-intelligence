@@ -1,10 +1,10 @@
-# 🚀 SaaS Revenue Intelligence
+#  SaaS Revenue Intelligence
 
 **End-to-end SaaS revenue intelligence platform analyzing $3.46M in revenue across 25,000 customers to quantify growth, retention, customer value, and revenue risk. — built with MySQL, Python, and Excel to deliver executive-ready insights on MRR, ARR, churn drivers, customer segmentation, and retention performance.**
 
 ---
 
-## 📌 Business Problem
+##  Business Problem
 
 SaaS companies can grow their customer base every month and still shrink in revenue if churn outpaces acquisition. Most early-stage and growth-stage SaaS teams lack a structured, repeatable system to answer the questions that drive executive decisions:
 
@@ -27,7 +27,7 @@ The analysis focuses on four core business questions:
 - Which actions could improve retention and long-term revenue growth?
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 1. Build a 7-table normalized SaaS subscription schema and validate data quality across all tables
 2. Calculate and cross-validate MRR, ARR, Total Revenue, and ARPC across SQL, Python, and Excel
@@ -40,7 +40,7 @@ The analysis focuses on four core business questions:
 
 ---
 
-## 🗂 Dataset Overview
+##  Dataset Overview
 
 | Table | Rows | Description |
 |---|---|---|
@@ -62,7 +62,7 @@ The analysis focuses on four core business questions:
 
 ---
 
-## 📖 Data Dictionary
+##  Data Dictionary
 
 | Column | Table | Business Meaning | Why Important |
 |---|---|---|---|
@@ -280,7 +280,7 @@ Business Insights callouts: **Top Plan:** Premium | **Top Country:** UK | **Top 
 
 ---
 
-## 🗄 SQL Analysis
+##  SQL Analysis
 
 > All 35+ queries read line-by-line from the uploaded SQL file.
 
@@ -487,7 +487,7 @@ Demonstrates production SQL thinking — views encapsulate reusable aggregation 
 
 ---
 
-## 🐍 Python Analysis
+##  Python Analysis
 
 Four notebooks — The Python layer consists of four notebooks covering data preparation, revenue analytics, churn analysis, and executive reporting..
 
@@ -648,7 +648,7 @@ Executive KPI scorecard generated from previously calculated project metrics and
 
 ---
 
-## 📈 Key KPIs
+## Key KPIs
 
 | KPI | Value | Formula | Benchmark | Interpretation |
 |---|---|---|---|---|
@@ -668,7 +668,7 @@ Executive KPI scorecard generated from previously calculated project metrics and
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 **HIGH IMPACT**
 
@@ -738,7 +738,7 @@ Planned Tableau views: Executive KPI strip | Monthly MRR trend with MoM labels |
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 saas-revenue-intelligence/
@@ -775,7 +775,7 @@ saas-revenue-intelligence/
 
 ---
 
-## 🚀 Business Impact
+##  Business Impact
 
 | Deliverable | Impact |
 |---|---|
@@ -789,7 +789,7 @@ saas-revenue-intelligence/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 1. **NRR calculation refinement** — Build a proper cohort-based NRR using PLAN_CHANGES (expansion) and CHURN_EVENTS (contraction) tables to compute true net revenue retention per monthly cohort
 2. **Predictive churn model** — Logistic regression using customer attributes (industry, company_size, acquisition_channel, plan_tier, invoice frequency) to score each active customer's churn probability
