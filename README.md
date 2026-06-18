@@ -14,15 +14,17 @@ SaaS companies can grow their customer base every month and still shrink in reve
 - What does our NRR and GRR say about the long-term health of the business?
 
 This project builds that system end-to-end: raw relational subscription data → SQL KPI engine → Python analytical layer → Excel executive dashboards → actionable business recommendations.
+The dataset represents a SaaS subscription business operating across multiple customer segments, industries, acquisition channels, and pricing plans. The objective was to evaluate revenue performance, customer retention, churn drivers, and growth opportunities using a combination of SQL, Python, and Excel.
 
-**CEO Perspective:** Are we building a durable recurring revenue business or running a leaky bucket? This project answers that with ARR, churn rate, NRR, and monthly trend data — not just top-line revenue.
+The analysis focuses on four core business questions:
 
-**CFO Perspective:** What is our true MRR ($2.62M) and ARR ($31.4M)? Where is revenue concentration risk? Which customers represent renewal risk? This project provides the financial evidence layer.
+- How healthy is the recurring revenue base?
 
-**Sales / Revenue Operations Perspective:** Referral drives $1.18M vs Ads $1.11M — where should acquisition spend be allocated? Which industries and company sizes generate the highest-value customers? This project answers both.
+- Which customers, plans, and segments generate the most revenue?
 
-**Investor Perspective:** With NRR at 58% and GRR at 53%, is this business retaining revenue or eroding it? The cohort and retention analysis here gives the honest answer — and identifies the path to improvement.
+- What are the primary drivers of customer churn?
 
+- Which actions could improve retention and long-term revenue growth?
 ---
 
 ## 🎯 Project Objectives
