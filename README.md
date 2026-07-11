@@ -30,7 +30,6 @@
 - [23. Screenshots](#23-screenshots)
 - [24. How to Run This Project](#24-how-to-run-this-project)
 - [25. Conclusion](#25-conclusion)
-- [26. Relevant Roles](#26-relevant-roles)
 
 ## 1. Executive Summary
 
@@ -226,10 +225,5 @@ SQL (joins, subqueries, data validation, cohort logic) · Python (pandas, statis
 
 This project demonstrates the full analytical stack required to run revenue operations at a SaaS company: trustworthy data validation, defensible retention methodology, and insights translated into prioritized executive action — not just a dashboard, but a decision-support tool.
 
-## 27. Relevant Roles
-
-This project sits at the intersection of **data analytics, business strategy, and operations** — the SQL and Python layers demonstrate technical rigor for Data/BI Analyst roles; the MRR-bridge retention framework and revenue-concentration analysis reflect the kind of quantitative judgment expected in Strategy & Operations and Founder's Office functions; and the structured, hypothesis-driven approach (business question → analysis → recommendation) mirrors how management consultants scope and present client work.
-
 ---
-
 *Author: Sumit Kumar Gupta*
